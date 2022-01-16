@@ -1,0 +1,91 @@
+package kotlinx.mail
+
+enum class EmailHeader {
+    Date,
+    From,
+    Sender,
+    ReplyTo{ override fun toString() = "Reply-To" },
+    To,
+    Cc,
+    Bcc,
+    MessageID{ override fun toString() ="Message-ID" },
+    InReplyTo{ override fun toString() ="In-Reply-To" } ,
+    References ,
+    Subject ,
+    Comments,
+    Keywords,
+    ResentDate{override fun toString() ="Resent-Date" } ,
+    ResentFrom {override fun toString() ="Resent-From" } ,
+    ResentSender{override fun toString() ="Resent-Sender"} ,
+    ResentTo{override fun toString() ="Resent-To" } ,
+    ResentCc{override fun toString() ="Resent-Cc" },
+    ResentBcc{override fun toString() ="Resent-Bcc" },
+    ResentReplyTo{override fun toString() ="Resent-Reply-To" },
+    ResentMessageID{override fun toString() ="Resent-Message-ID" },
+    ReturnPath{ override fun toString() ="Return-Path" } ,
+    Received,
+    Encrypted,
+    DispositionNotificationTo{ override fun toString() ="Disposition-Notification-To" },
+    DispositionNotificationOptions{ override fun toString() ="Disposition-Notification-Options" },
+    AcceptLanguage{ override fun toString() ="Accept-Language" },
+    OriginalMessageID{ override fun toString() ="Original-Message-ID" },
+    PICSLabel{ override fun toString() ="PICS-Label" },
+    Encoding,
+    ListArchive{ override fun toString() ="List-Archive" },
+    ListHelp{ override fun toString() ="List-Help" },
+    ListID{ override fun toString() ="List-ID" },
+    ListOwner{ override fun toString() ="List-Owner" },
+    ListPost{ override fun toString() ="List-Post" },
+    ListSubscribe{ override fun toString() ="List-Subscribe" },
+    ListUnsubscribe{ override fun toString() ="List-Unsubscribe" },
+    MessageContext{ override fun toString() ="Message-Context" },
+    DLExpansionHistory{ override fun toString() ="DL-Expansion-History" },
+    AlternateRecipient{ override fun toString() ="Alternate-Recipient" },
+    OriginalEncodedInformationTypes{ override fun toString() ="Original-Encoded-Information-Types" },
+    ContentReturn{ override fun toString() ="Content-Return" },
+    GenerateDeliveryReport{ override fun toString() ="Generate-Delivery-Report" },
+    PreventNonDeliveryReport{ override fun toString() ="Prevent-NonDelivery-Report" },
+    Obsoletes ,
+    Supersedes,
+    ContentIdentifier{ override fun toString() ="Content-Identifier" },
+    DeliveryDate{ override fun toString() ="Delivery-Date" },
+    ExpiryDate{ override fun toString() ="Expiry-Date" },
+    Expires,
+    ReplyBy{ override fun toString() ="Reply-By" },
+    Importance,
+    IncompleteCopy{ override fun toString() ="Incomplete-Copy" } ,
+    Priority,
+    Sensitivity,
+    Language,
+    Conversion,
+    ConversionWithLoss{ override fun toString() ="Conversion-With-Loss" },
+    MessageType{ override fun toString() ="Message-Type" },
+    Autosubmitted,
+    Autoforwarded,
+    DiscardedX400IPMSExtensions{ override fun toString() ="Discarded-X400-IPMS-Extensions" },
+    DiscardedX400MTSExtensions{ override fun toString() ="Discarded-X400-MTS-Extensions" },
+    DiscloseRecipients{ override fun toString() ="Disclose-Recipients" },
+
+    DeferredDelivery{ override fun toString() ="Deferred-Delivery" },
+    LatestDeliveryTime{ override fun toString() ="Latest-Delivery-Time" },
+    OriginatorReturnAddress{ override fun toString() ="Originator-Return-Address" },
+
+    X400ContentIdentifier{ override fun toString() ="X400-Content-Identifier" },
+    X400ContentReturn{ override fun toString() ="X400-Content-Return" },
+    X400ContentType{ override fun toString() ="X400-Content-Type" },
+    X400MTSIdentifier{ override fun toString() ="X400-MTS-Identifier" },
+    X400Originator{ override fun toString() ="X400-Originator" },
+    X400Received{ override fun toString() ="X400-Received" },
+    X400Recipients{ override fun toString() ="X400-Recipients" },
+    X400Trace{ override fun toString() ="X400-Trace" }
+}
+
+
+
+fun eee () {
+
+
+
+
+
+}

@@ -1,0 +1,8 @@
+# Project exclude paths
+/.gradle/
+/core/build/
+/core/build/classes/kotlin/jvm/main/
+/core/build/classes/kotlin/native/main/klib/
+/curl/build/
+/curl/build/classes/kotlin/native/test/klib/
+/jvm/build/
